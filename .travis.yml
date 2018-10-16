@@ -15,5 +15,4 @@ matrix:
 install:
   - pip install -r test_requirements.txt
   - npm install
-before_script: make lint
 script: make test
